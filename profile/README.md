@@ -16,4 +16,4 @@ sudo bash  -c "echo 'deb [trusted=yes] https://gitcode.net/simple-linux-de/debse
 
 Terminal
 
-![Terminal](imgs/terminal.png)
+![Terminal](profile/imgs/terminal.png)
