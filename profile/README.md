@@ -11,3 +11,9 @@ sudo bash  -c "echo 'deb [trusted=yes] https://gitcode.net/simple-linux-de/debse
 ```
 
 欢迎大家贡献代码！也欢迎大佬们加入开发~
+
+# Some screenshots
+
+Terminal
+
+![Terminal](imgs/terminal.png)
