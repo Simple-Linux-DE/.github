@@ -9,6 +9,11 @@
 ```shell
 sudo bash  -c "echo 'deb [trusted=yes] https://gitcode.net/simple-linux-de/debserver/-/raw/master unstable main contrib non-free' > /etc/apt/sources.list.d/simplelinux.list"
 ```
+If you are not in China, you can use the github mirror!
+
+```shell
+sudo bash  -c "echo 'deb [trusted=yes] https://raw.githubusercontent.com/Simple-Linux-DE/DebServer/master unstable main contrib non-free' > /etc/apt/sources.list.d/simplelinux.list"
+```
 
 欢迎大家贡献代码！也欢迎大佬们加入开发~
 
