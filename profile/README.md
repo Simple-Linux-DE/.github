@@ -17,6 +17,8 @@ sudo bash  -c "echo 'deb [trusted=yes] https://raw.githubusercontent.com/Simple-
 
 欢迎大家贡献代码！也欢迎大佬们加入开发~
 
+P.S. 目前@ganyuanzhen（也就是我）在Deepin上面开发，所以大概会有个基于Deepin的版本？
+
 # Some screenshots
 
 Terminal
