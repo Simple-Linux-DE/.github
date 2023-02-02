@@ -2,6 +2,8 @@
 
 这是Cutefish Desktop Environment的一个分支，旨在提供简单高效的桌面体验
 
+国内镜像：<https://gitcode.net/simple-linux-de> 请勿在此提交代码！
+
 # Status
 
 项目主要面对Ubuntu，目前处于初始阶段，仅提供unstable链接。
