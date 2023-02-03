@@ -8,13 +8,15 @@
 
 项目主要面对Ubuntu，目前处于初始阶段，仅提供unstable链接。
 
-```shell
-sudo bash  -c "echo 'deb [trusted=yes] https://gitcode.net/simple-linux-de/debserver/-/raw/master unstable main contrib non-free' > /etc/apt/sources.list.d/simplelinux.list"
-```
-If you are not in China, you can use the github mirror!
+ubuntu-jammy 分支正在测试中！
 
+__注意__ ：使用gitcode/github服务器的用户请尽快切换为新的地址！
+
+CDN:
 ```shell
-sudo bash  -c "echo 'deb [trusted=yes] https://raw.githubusercontent.com/Simple-Linux-DE/DebServer/master unstable main contrib non-free' > /etc/apt/sources.list.d/simplelinux.list"
+curl -Ss http://index.sl.300c.top/project/simplelinux.asc | sudo gpg --import -
+sudo bash -c "gpg --export F5D1CCA2BD189758 > /etc/apt/trusted.gpg.d/simplelinux.gpg"
+sudo bash  -c "echo 'deb [trusted=yes] http://index.sl.300c.top unstable main contrib non-free' > /etc/apt/sources.list.d/simplelinux.list"
 ```
 
 欢迎大家贡献代码！也欢迎大佬们加入开发~
